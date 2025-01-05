@@ -1,0 +1,58 @@
+/* Apply background image to the whole page */
+.page-background {
+    background: linear-gradient(90deg, #431010, #110029);/* Gradient from dark purple to dark red */
+    background-size: cover; /* Ensure the gradient covers the entire area */
+    background-position: center; /* Center the gradient */
+    background-attachment: fixed; /* Keep the background fixed */
+    min-height: 100vh; /* Full viewport height */
+    padding: 20px; /* Optional padding */
+}
+
+/* Glass effect container */
+.glass-container {
+    backdrop-filter: blur(30px); /* Blurs the background behind the container */
+    background: linear-gradient(135deg, #a7a6a634,#3837371c); /* Semi-transparent white background */
+    border-radius: 10px; /* Rounded corners */
+    padding: 20px; /* Padding inside the container */
+    margin: 20px auto; /* Center the container and add margin */
+    width: 90%; /* Full width with some margin */
+    max-width: 1200px; /* Optional max-width */
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid container for ads */
+.ads-grid {
+    display: flex; /* Use flexbox for centering */
+    flex-wrap: wrap; /* Allow items to wrap onto multiple lines */
+    justify-content: center; /* Center the items horizontally */
+    gap: 20px; /* Gap between grid items */
+}
+
+/* Optional styles for individual ad cards */
+.ad-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+    border-radius: 8px; /* Rounded corners for cards */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    background: #fff; /* White background for cards */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow for better visibility */
+    padding: 20px; /* Padding inside the card */
+    text-align: center; /* Center text inside the card */
+    width: 300px; /* Set a fixed width for cards */
+}
+.ReadBtn{
+    color: black;
+    background-color: #ffffff6b !important;
+    border: none !important;
+    outline: none !important;
+    background-image: none !important;
+    backdrop-filter: blur(40px);
+    border-radius: 2rem;
+    width: 100%;
+}
+.ReadBtn:hover{
+    background-color: #ffffff !important;
+}

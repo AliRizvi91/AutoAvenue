@@ -1,0 +1,106 @@
+/* Card styling */
+.l-card {
+    background: rgba(255, 255, 255, 0.089) !important; /* Light gradient background with glass effect */
+    backdrop-filter: blur(10px); /* Glass effect */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    position: relative; /* Position relative for child positioning */
+    width: 19rem; /* Fixed width */
+    margin: 0.7rem; /* Margin around the card */
+    height: auto !important;
+  }
+  
+  /* Card image */
+  .card-img-top {
+    width: 100%; /* Full width */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 1.3rem;
+  }
+  
+  /* Card body */
+  .card-body {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center content horizontally */
+    justify-content: center; /* Center content vertically */
+  }
+  
+  /* Car name */
+  .car-name {
+    text-align: center; /* Center text */
+    margin: 1rem 0;
+    font-size: 1.5rem; /* Font size for car name */
+  }
+  
+  /* Description */
+  .description {
+    text-align: center; /* Center text */
+    font-size: 0.6rem; /* Font size for description */
+    margin: 0.2rem 0; /* Margin for spacing */
+    display: -webkit-box;
+    -webkit-line-clamp: 4; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  /* Details section */
+  .details {
+    display: flex;
+    justify-content: space-between; /* Space out details section */
+    width: 100%; /* Full width */
+    margin-top: 1rem;
+  }
+  
+  /* Left side details */
+  .details-left {
+    text-align: left; /* Align text to the left */
+  }
+  
+  /* Right side details */
+  .details-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Center content horizontally */
+    gap: 7.5rem; /* Gap between buttons */
+    justify-content: space-around;
+  }
+
+  
+  /* Icon styling */
+  .icon {
+    margin-right: 0.5rem; /* Space between icon and text */
+  }
+  .btn{
+    background: #cc1702;
+      margin: 16px;
+      padding: 15px 45px;
+      text-align: center;
+      text-transform: uppercase;
+      transition: 0.3s;
+      background-size: 200% auto;
+      color: white;            
+      box-shadow: 12px 4px 20px 1px #0807077e;
+      border-radius: 10px;
+      width: 7rem;
+      padding: 0.6rem 0rem ;
+      border-radius: 3px;
+      border: none !important;
+      font-size: 0.7rem;
+      font-weight: bold;
+  }
+  .btn:hover{
+    background: #ff2b13 !important;
+  }
+
+
+  
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
+    .details {
+      flex-direction: column; /* Stack details vertically on smaller screens */
+    }
+  }
+  

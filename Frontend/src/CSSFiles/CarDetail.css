@@ -1,0 +1,68 @@
+
+.MDconatiner{
+  background: linear-gradient(90deg, #431010, #110029);
+  padding-top: 4rem;
+  padding-bottom: 2rem;
+}
+.D_glass {
+  background: rgba(255, 255, 255, 0.089) !important; /* Light gradient background with glass effect */
+    backdrop-filter: blur(30px); /* Glass effect */
+    border-radius: 0.6rem; /* Rounded corners */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    position: relative; /* Position relative for child positioning */
+    margin: 0.3rem; /* Margin around the card */
+  }
+  
+  #price {
+    color: red !important;
+  }
+  
+  .p_glass {
+    background: rgba(255, 255, 255, 0.089) !important; /* Light gradient background with glass effect */
+    backdrop-filter: blur(30px); /* Glass effect */
+    border-radius: 0.6rem; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    position: relative; /* Position relative for child positioning */
+    margin: 0.3rem; /* Margin around the card */
+    display: none; /* Initially hidden */
+  }
+  
+  .p_glass.active {
+    display: flex; /* Display when profileFolder is true */
+  }
+  
+  .ProfileFolder {
+    cursor: pointer; /* Pointer cursor to indicate clickable */
+  }
+  
+  @media (max-width: 768px) {
+    .container-fluid {
+      padding-left: 1rem;
+      padding-right: 1rem;
+      display: flex !important;
+      justify-content: center !important;
+      align-items: center !important;
+    }
+  
+    .d-flex {
+      flex-direction: column;
+    }
+  
+    .D_glass, .p_glass {
+      margin: 0.5rem 0;
+      padding: 1rem;
+    }
+  
+    .p_glass {
+      display: none !important; /* Keep hidden on smaller screens */
+    }
+    .block{
+        align-items: center !important;
+    }
+     
+
+  }
+
+
+  

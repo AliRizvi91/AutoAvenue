@@ -1,0 +1,22 @@
+/* Category */
+.C_Glass {
+    background: rgba(255, 255, 255, 0.13); /* Light gradient background with glass effect */
+    backdrop-filter: blur(10px); /* Glass effect */
+    border-radius: 10px; /* Rounded corners */
+    overflow: hidden; /* Ensures content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional shadow for better visibility */
+    position: relative; /* Position relative for child positioning */
+    width: 100%; /* Fixed width */
+    margin: 0.7rem ; /* Margin around the card */
+  }
+  /* Description */
+  .description {
+    text-align: center; /* Center text */
+    font-size: 0.6rem; /* Font size for description */
+    margin: 0.2rem 0; /* Margin for spacing */
+    display: -webkit-box;
+    -webkit-line-clamp: 6; /* Number of lines to show */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }  
