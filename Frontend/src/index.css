@@ -1,0 +1,93 @@
+:root{
+  --white : rgb(255, 255, 255);
+}
+
+/* Toastify__toast */
+.Toastify__toast {
+  font-size: 13px; /* Adjust this value to your desired font size */
+}
+
+
+
+
+
+*{
+  font-family: "Michroma", sans-serif;
+  }
+  body{
+    font-family: "Michroma", sans-serif;
+    /* font-style: italic; */
+    font-weight: bold;
+    background-color: black !important;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    overflow-x: hidden !important;
+  }
+  /* html{
+    font-family: "Michroma", sans-serif;
+  } */
+
+  h1,h2,h3,h4,h5,h6{
+    color: var(--white) !important;
+    font-weight: bold;
+  }
+  p{
+    color: var(--white) !important;
+  }
+
+  /* Profile Image */
+  .profile-img {
+    width: 3rem; /* Adjust size as needed */
+    height: 3rem;
+    margin: 0.4rem;
+    box-shadow: rgba(255, 255, 255, 0.12) 0px 2px 11px 3px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+  }
+  .Picon{
+    color: white;
+    height: 3.3rem !important;
+    width: 3.2rem;
+}
+
+
+
+
+/* select {
+  --selectHoverCol: #999;
+  --selectedCol: red;
+  width: 100%;
+  font-size: 1em;
+  padding: 0.3em;
+  background-color: #fff;
+}
+
+select:focus {
+  border-radius: 0px;
+  border-color: red;
+  background: #fff;
+  outline: none;
+}
+
+.select-wrap {
+  position: relative;
+}
+
+.select-wrap:focus-within select {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 10
+}
+
+
+option:checked {
+  box-shadow: 0 0 1em 100px var(--selectedCol) inset;
+} */
+  option:hover {
+    background-color: red;
+    color: #fff;
+  }
+.select-wrap{
+  /* width: 38rem; */
+  margin-left: 0.4rem;
+}

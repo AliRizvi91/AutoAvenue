@@ -1,0 +1,538 @@
+
+
+
+/* -------------1782------------- */
+@media (max-width : 1782px){
+    .C-H{
+        
+        top: -49rem !important;
+    }
+}
+/* -------------1590------------- */
+@media (max-width : 1590px){
+    .C-H{
+        
+        top: -41rem !important;
+    }
+    .inputC{
+        width: 23rem !important;
+    }
+}
+/* -------------1400------------- */
+@media (max-width : 1400px){
+    .C-H{
+        
+        top: -39rem !important;
+    }
+    /* About */
+    .about_desc{
+        padding-top: 5rem !important;
+    }
+}
+
+/* -------------1300------------- */
+@media (max-width : 1300px){
+    .C-H{
+        top: -35rem !important;
+    }
+    .map{
+        width: 99%;
+    }
+    .block{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .inputC{
+        width: 17rem !important;
+    }
+}
+
+/* -------------1200------------- */
+@media (max-width : 1200px){
+    .row>*{
+        padding-right:  0rem !important;
+    }
+    .c-shape{
+        width: auto;
+        height: auto;
+    }
+    .img-C{
+        top: -12rem !important;
+    }
+}
+
+/* -------------1100------------- */
+@media (max-width : 1100px){
+    .C-H{
+        top: -29rem !important;
+    }
+    /* Footer */
+.footer{
+    padding: 3rem 1rem !important;
+  }
+  .about{
+    padding: 0rem !important;
+  }
+}
+
+/* -------------991------------- */
+@media (max-width : 991px){
+    /*--------- Navbar--------- */
+    
+.logo{
+ width: 11rem !important; 
+}
+    .NavC{
+        justify-content: flex-end !important;
+    }
+    .navbar-brand{
+        position: absolute  !important;
+        left: 1rem !important;
+        top: 0rem !important;
+    }
+    /* Category */
+    .row>*{
+        padding-right:  0rem !important;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+.category_B{
+    background-image: url('/public/assests/Images/category2.png') !important;
+    height: 75rem !important;
+}
+
+/* Footer */
+.footer .row .col{
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: start;
+    font-size: 70%;
+  }
+  .footer h4{
+      font-size: 150% !important;
+    }
+/* ABout */
+.about{
+    display: flex;
+    flex-direction: column;
+    padding: 0rem 4rem !important;
+    align-items: center;
+    text-align: center;
+}
+.about_desc{
+    flex-direction: column;
+    align-items: flex-start;
+}
+.aboutImg{
+    width: 22rem !important;
+    margin: 1rem 1rem !important;
+}
+/* About */
+.about_desc{
+    padding-top: 0rem !important;
+}
+.smSpage{
+    width: 43rem;
+}
+/* Searchbar */
+.input-group{
+    display: flex;
+    flex-direction: column !important;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+.inputC{
+    width: 100% !important;
+    margin: 1px !important;
+    padding: 0.7rem;
+}
+.selectHovercolor {
+    margin: 0px !important;
+}
+.select-wrap{
+    width: 100% !important;
+}
+}
+/* -------------900------------- */
+@media (max-width : 900px){
+    .ads-grid{
+        flex-direction: column !important;
+        align-items: center;
+        }
+    .S-Head h1{
+        font-size: 1rem !important;
+      }
+      .S-Head{
+        top: 1rem !important;
+        font-size: 0.5rem !important;
+        width: 20rem !important;
+      }
+      .inputC{
+        font-size: 0.6rem !important;
+      }
+      .S-btn{
+          font-size: 0.6rem !important;
+      }
+      .C-H{
+        top: -25rem !important;
+    }
+    /* About */
+  .about_desc{
+    font-size: 80% !important;
+}
+.about_desc h2{
+    font-size: 160%;
+}
+/* Profile */
+.BGImg{
+    height: 19rem !important;
+}
+}
+/* -------------800------------- */
+@media (max-width : 800px){
+    .C-H{
+        top: -21rem !important;
+    }
+
+        /* Footer */
+.footer .row .col{
+    font-size: 50%;
+}
+.footer h4{
+    font-size: 80%;
+  }
+  .f_btn{
+    font-size: 80% !important;
+  }
+  .F_C span{
+    margin-left: 0.2rem;
+  }
+  .F_end{
+    font-size: 80% !important;
+  }
+  
+/* Category */
+.Category_C{
+    flex-direction: column !important;
+    text-align: center !important;
+    align-items: center !important;
+}
+/* Profile */
+.UChatP{
+    width: 100% !important;
+}
+.VBlock{
+    flex-direction: column !important;
+}
+
+}
+
+/* -------------700------------- */
+@media (max-width : 700px){
+    .C-H{
+        top: -19rem !important;
+    }
+    .CardBox{
+        margin-top: 0rem !important;
+    }
+    /* Category */
+    .C-H{
+        margin: 5px 0px !important;
+    }
+    .contact_C .row{
+    display: flex !important;
+    flex-direction: column !important;
+    }
+    .contact_C p{
+        text-align: center !important;
+    }  
+.smSpage{
+    width: 30rem;
+}
+.inputG{
+    display: flex !important;
+    flex-direction: column !important;
+}
+/* Sign up */
+
+.SsmPage{
+    height: 100% !important;
+} 
+.mainContainer{
+    height: 100%;
+}
+
+}
+
+/* -------------600------------- */
+@media (max-width : 600px){
+    .C-H{
+        top: -17rem !important;
+        font-size: 1rem;
+    }
+    /* footer */
+    .footer{
+        font-size: 80%;
+    }
+    /* about */
+    .img-C{
+        top: -4rem !important;
+    }
+    h1{
+        font-size: 1rem !important;
+    }
+    /* About */
+.about_desc h2{
+    font-size: 140% !important;
+}
+.aboutC{
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+}
+/* category */
+.categoryImg{
+    width:auto !important;
+    height: auto !important;
+}
+.C_Glass{
+    padding: 0px !important;
+}
+  /* SignUp */
+  .mainContainer{
+    height: 100% !important;
+    padding: 0rem 0rem !important;
+  }
+  .SsmPage{
+    margin: 0rem 0rem !important;
+    padding: 0rem 0rem !important;
+}
+/* profile */
+.PVideo{
+    width: 21rem !important;
+}
+
+}
+
+/* -------------500------------- */
+@media (max-width : 500px){
+    .C-H{
+        top: -15rem !important;
+        
+    }
+    /* footer */
+    .F_icon{
+        margin-right: 0.2rem;
+      }
+    .SsmPage {
+        margin: 0rem 0rem !important ;
+      }
+    .smSpage{
+          padding: 0rem 0rem !important;
+      }
+    .block{
+      padding: 0rem 0rem !important;
+      }
+}
+
+
+/* -------------475------------- */
+@media (max-width : 475px){
+    /*--------- Navbar--------- */
+    .navbar-brand img{
+        width: 9rem !important;
+    }
+    .btn{
+        font-size: 0.6rem !important;
+    }
+    .navbar-toggler{
+        padding: 0.2px 0.2px !important;
+      }
+    .S-Head{
+      display: none;
+    }
+    .searchbar{
+        flex-direction: column !important;
+        height: 10rem !important;
+    }
+      .btn{
+        margin: 0.2rem 0px;
+    }
+    /* Category */
+    .C-H{
+        top: -11rem !important;
+        font-size: 0.9rem;
+    }
+    .CardBox .row{
+        justify-content: center;
+    }
+    .card{
+        height: 10rem !important;
+        width: 7rem !important;
+    }
+    .card span{
+        height: 3rem;
+        width: 3rem;
+      }
+    .icon{
+        font-size: 3rem !important;
+    }
+/* Listening */
+.Lcard{
+    font-size: 70%;
+    height: auto !important;
+    width: auto !important;
+  }
+  .L_Glass{
+  padding: 2rem 3rem !important;
+  }
+  .L_Glass{
+    padding: 0rem !important;
+  }
+  .l-card{
+    width: 19rem !important;
+  }
+
+  /* Footer */
+
+  /* Hide columns 1 and 2 in the footer */
+.footer .col:nth-child(1),
+.footer .col:nth-child(2) {
+    display: none !important;
+}
+
+.F_C{
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  .F_end{
+    font-size: 60% !important;
+  }
+/* About */
+.img-C{
+    top: -3rem !important;
+    padding-left: 0px !important;
+}
+.aboutC{
+    padding-left: 0rem !important;
+    padding-right: 0rem !important;
+}
+.footer{
+    display: none;
+}
+/* category */
+
+.Category_C{
+    font-size: 70% !important;
+}
+/* contact */
+.contact_C,.form-control[placeholder],
+span,.inf h6{
+    font-size: 70% !important;
+}
+.contact_C textarea{
+    height: 7.5rem !important;
+}
+/* signup */
+.icon {
+ font-size: 2rem !important;
+}
+
+.Spart{
+    width: 20rem !important;
+}
+input{
+    margin-bottom: 0rem !important;
+}
+.smSpage{
+    width: 23rem !important;
+}
+/* .form-control{
+    width: 14rem !important;
+} */
+select{
+    font-size: 60% !important;
+}
+/* profile */
+.detailP{
+    flex-direction: column !important;
+}
+.p_pshow{
+    margin: 0rem !important;
+    height: 8rem !important;
+    width: 8rem !important;
+}
+/* Post */
+.selectImage{
+    width: 18rem !important;
+}
+.Pdetail{
+    font-size: 12px !important;
+}
+
+/* SelectProfileImage */
+.SPimage{
+    width: 20rem !important;
+}
+
+
+
+}
+
+
+
+/* -------------340------------- */
+@media (max-width : 340px){
+    /*--------- Navbar--------- */
+    .N-Btn{
+        display: flex;
+        flex-direction: column !important;
+    }
+    .btn{
+        margin: 2px 0px;
+    }
+    /* Category */
+    .C-H{
+        top: -7rem !important;
+        font-size: 0.7rem;
+    }
+    
+    .card{
+        height: 7rem !important;
+        width: 5rem !important;
+        margin: 0.5rem !important;
+    }
+    .card div{
+        font-size: 70% !important;
+    }
+    .category_B{
+        height: 46rem !important;
+    }
+
+    /* Listening */
+.Lcard{
+    font-size: 70%;
+    height: auto !important;
+    width: auto !important;
+  }
+  .L_Glass{
+    padding: 1rem 2rem !important;
+    }
+
+    /* About */
+.about_desc{
+    font-size: 60% !important;
+}
+.about{
+    padding: 0rem 1rem !important;
+}
+/* Signup */
+.smSpage{
+    width: 18.5rem !important;
+}
+
+}
